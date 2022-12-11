@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import FileUpload from './components/FileUpload'
 
 function App() {
+
+  const [sudoku, setSudoku] = useState({})
+  const readFile = (fileObject) => {
+    let file = JSON.parse(fileObject)
+    setSudoku({...file})
+    console.log(sudoku)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+        <FileUpload readFile={readFile}/>
     </div>
   );
 }
