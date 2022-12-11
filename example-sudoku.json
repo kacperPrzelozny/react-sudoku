@@ -1,0 +1,509 @@
+{
+  "sudoku": [
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 2,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 9,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 7,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 6,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 9,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 3,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable":false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 5,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 8,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 4,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 1,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 6,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 2,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 3,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 9,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 6,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 1,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 3,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 9,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 1,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      }
+    ],
+    [
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 8,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 2,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      },
+      {
+        "value": 0,
+        "hints": [],
+        "isCorrect": false,
+        "isChangeable":true
+      },
+      {
+        "value": 4,
+        "hints": [],
+        "isCorrect": true,
+        "isChangeable": false
+      }
+    ]
+  ]
+
+}

@@ -1,11 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
+    background-color: #505050;
 }
 
 .fileUploadBox {
+    display: flex;
     width: 35%;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #5b28ff;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+    background-color: #5b28ff;
+}
+
+.boardBox {
+    display: flex;
+    width: 45%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    aspect-ratio: 9 / 1;
+    display: flex;
+}
+
+.cell {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    color: white;
+    cursor: pointer;
+}
+
+.cell-even {
+    background-color: #5b28ff;
+}
+
+.cell-odd {
+    background-color: #cc8899;
+}
+.cell .hint {
+    width: 100%;
+    height: 25%;
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}
+
+.cell-even .value {
+    color: white;
+}
+
+.correct {
+    color: green !important;
+}
+
+.incorrect {
+    color: red !important;
+}
+
+.cell-odd .value {
+    color: black;
+}
+
+.cell .value {
+    width: 100%;
+    height: 75%;
+    font-size: 20pt;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solve {
+    border: 1px solid #5b28ff;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+    background-color: #5b28ff;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.checkbox-group label {
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.number-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    aspect-ratio: 1 / 1;
+}
+
+.number-row {
+    width: 100%;
+    aspect-ratio: 3 / 1;
+    display: flex;
+}
+
+.number-cell {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+}
+
+.number-button {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 25%;
+    font-size: 20pt;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #5b28ff;
+    color: white;
+    border: none;
+}
+
+.picked {
+    background-color: #cc8899 !important;
+    color: black !important;
+}
+
+/* sudoku board 3x3 squares */
+
+.cell:nth-child(3n){
+    border-right: 6px solid black;
+}
+.cell:last-child {
+    border-right: 0px solid black;
+}
+.row:nth-child(3n) .cell {
+    border-bottom: 6px solid black;
+}
+
+.row:last-child .cell {
+    border-bottom: 0px solid black;
 }
